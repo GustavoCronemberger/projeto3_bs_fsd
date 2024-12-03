@@ -1,0 +1,420 @@
+body {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.navbar {
+    background-color: #7f4923;
+}
+
+#cabecalho .nav .nav-link.active{
+    background-color: #fff;
+    color: #7f4923;
+}
+
+#cabecalho .nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover,
+.nav-produtos .nav-link.active:hover {
+    color: #fff;
+}
+
+.navbar-brand {
+    font-family: 'Montserrat', sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+}
+
+.section-title {
+    font-family: 'Montserrat', sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.section-title span {
+    color: #7f4923;
+}
+
+.text-colored {
+    color: #7f4923;
+}
+
+.nav-produtos .nav-link.active {
+    background-color: #7f4923;
+    color: #fff;
+}
+
+.nav-produtos .nav-link:hover {
+    color: #7f4923;
+}
+
+.navbar-toggler {
+    background-color: #ffe44d;
+}
+
+#produtos{
+    background-color: #fff4c7;
+}
+
+.social-links li {
+    list-style: none;
+    display: inline;
+}
+
+.social-links a {
+    text-decoration: none;
+}
+
+#contato button{
+    background-color: #ffe44d;
+    color: #7f4923;
+}
+
+#contato button:hover {
+    background-color: #e6b800;
+}
+
+@media (min-width: 1200px) {
+    .carousel-item img {
+        height: 680px;
+        width: 100%;
+        object-fit: cover;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1199px) {
+    .carousel-item img {
+        height: 400px;
+        width: 100%;
+        object-fit: cover;
+    }
+}
+
+@media (max-width: 767px) {
+    .carousel-item img {
+        height: 280px;
+        width: 100%;
+        object-fit: cover;
+    }
+}
+
+/*
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header h1 {
+    font-size: 2.5em;
+}
+
+header,
+section h2,
+section h3,
+form button {
+    font-family: 'Montserrat', sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+}
+
+
+section h3 {
+    font-weight: bold;
+    font-size: medium;
+    margin-bottom: 16px;
+}
+
+h2 {
+    border-bottom: 4px solid #9e6338;
+    padding-bottom: 8px;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+}
+
+header, footer {
+    padding: 16px;
+    background-color: #7f4923;
+    color: #ffe44d;
+}
+
+header nav li {
+    display: inline;
+    margin-left: 16px;
+}
+
+header nav li a {
+    color: #ffe44d;
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1024px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 16px;
+}
+
+header .container,
+section .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.store-front {
+    height: 500px;
+    width: 500px;
+}
+
+section .container{
+    align-items: flex-start;
+    margin-top: 16px;
+}
+
+section {
+    padding: 24px;
+    color: #7f4923;
+}
+
+section h2 {
+    font-size: 2em;
+    margin-bottom: 6px;
+}
+
+#about p {
+    margin-bottom: 0.5em;
+    font-size: 1.5em;
+}
+
+.store-front {
+    margin-right: 2em;
+}
+
+.social-links img {
+    height: 24px;
+}
+
+.social-links li {
+    display: inline;
+}
+
+.social-links li a {
+    text-decoration: none;
+}
+
+#contact .container {
+    display: block;
+}
+
+.contact-methods {
+    display: flex;
+    justify-content: space-between;
+}
+
+form input,
+form textarea,
+form button {
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+form textarea {
+    resize: none;
+}
+
+form button {
+    background-color: #7f4923;
+    color: #ffe44d;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #c2743c;
+}
+
+input:focus, textarea:focus {
+    outline-color: #182c61;
+}
+
+
+.conteudo{
+    display: grid;
+    grid-template-columns: 70% 30%;
+}
+
+.conteudo img {
+    max-width: 100%;
+}
+
+.destaque {
+    background-color: #f7e8aa;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.destaque h2 {
+    font-size: 2em;
+    margin-bottom: 16px;
+}
+
+.destaque-products {
+    text-align: center;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.destaque-products img {
+    max-width: 100%;
+    border-radius: 8px 8px 0 0;
+}
+
+.destaque-products h3 {
+    margin: 16px 0;
+    font-size: 1.5em;
+}
+
+.destaque-products p {
+    margin-bottom: 16px;
+    font-size: 1em;
+    color: #333;
+}
+
+.destaque-products button {
+    background-color: #ffe44d;
+    color: #333;
+    border: none;
+    padding: 5px;
+    font-size: 1em;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.destaque-products button:hover {
+    background-color: #e6b800;
+}
+
+.products {
+    padding-top: 10px;
+    display: grid;
+    grid-template-columns: repeat(4, 24.25%);
+    column-gap: 1%;
+    row-gap: 5%;
+}
+
+.products h3 {
+    font-size: 1em;
+}
+
+@media screen and (max-width: 640px) {
+    .conteudo {
+        display: block;
+    }
+    header .container, section .container, #contact .container, #about .container, footer .container {
+        flex-direction: column;
+        max-width: 100%;
+    }
+    
+    .destaque {
+        margin-bottom: 1em;
+    }
+    .destaque h2 {
+        font-size: 1.5em;
+    }
+    .destaque .destaque-products p {
+        display: block;
+        font-size: 1em;
+    }
+    .products {
+        display: block;
+    }
+    section h2 {
+        font-size: 1.5em;
+    }
+    .products h3 {
+        font-size: 1em;
+    }
+    .contact-methods {
+        flex-direction: column;
+        align-items: center;
+    }
+    .contact-methods > div {
+        width: 100%;
+        padding-top: 1em;
+    }
+    .store-front {
+        margin-bottom: 1.5em;
+        height: 300px;
+        width: 300px;
+    }
+    #about .store-front {
+        max-width: 100%;
+    }
+    #about p {
+        font-size: 1em;
+    }
+}
+
+
+@media screen and (min-width: 641px) and (max-width: 1023px) {
+    .conteudo {
+        display: block;
+    }
+    .container {
+        display: flex; 
+        flex-direction: column;
+        align-items: center;
+        gap: 20px; 
+    }
+
+    .store-front { 
+        width: 100%;
+    }
+
+    #about-text {
+        width: 100%;
+    }
+
+    .destaque .destaque-products p{
+        font-size: 1.5em;
+        display: block;
+    }
+
+    .products {
+        grid-template-columns: repeat(2, 48.5%);
+    }
+
+    .contact-methods { 
+        display: flex; 
+        flex-direction: row;
+        justify-content: space-between; 
+    } 
+        
+    .contact-methods > div { 
+        flex: 1; 
+        margin-right: 0.5em;
+    } 
+        
+    .contact-methods form { 
+        margin-right: 0.5em;
+    }
+
+}
+@media screen and (min-width: 1024px){}
+*/
